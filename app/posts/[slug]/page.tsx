@@ -27,12 +27,32 @@ const posts = {
       সিঙ্গুলারিটি যখনই আসুক, আমাদের প্রস্তুত থাকতে হবে।
     `,
   },
-  // Add more posts as needed
+  "programming-in-ai-era": {
+    title: "জেনারেটিভ এআই এর যুগে প্রোগ্রামিং",
+    date: "ডিসেম্বর ১, ২০২৩",
+    content: `প্রোগ্রামিং এর ভবিষ্যৎ এখন এআই এর হাতে...`,
+  },
+  "ai-ethics": {
+    title: "কৃত্রিম বুদ্ধিমত্তার নৈতিকতা",
+    date: "নভেম্বর ২৯, ২০২৩",
+    content: `এআই এর নৈতিক দিকগুলি নিয়ে আলোচনা...`,
+  },
+  "deep-learning-perspective": {
+    title: "ডিপ লার্নিং: একটি নতুন দৃষ্টিভঙ্গি",
+    date: "নভেম্বর ২০, ২০২৩",
+    content: `ডিপ লার্নিং কীভাবে আমাদের জীবন বদলে দিচ্ছে...`,
+  },
 }
 
-export default async function BlogPost({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params
-  const post = posts[slug as keyof typeof posts]
+// Generate static params for all possible slugs
+export function generateStaticParams() {
+  return Object.keys(posts).map((slug) => ({
+    slug: slug,
+  }))
+}
+
+export default function BlogPost({ params }: { params: { slug: string } }) {
+  const post = posts[params.slug as keyof typeof posts]
 
   if (!post) {
     notFound()

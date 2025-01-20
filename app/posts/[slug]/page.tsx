@@ -45,20 +45,21 @@ const posts = {
   },
 } as const
 
-// Generate static params for all possible slugs
 export function generateStaticParams() {
   return Object.keys(posts).map((slug) => ({
     slug: slug,
   }))
 }
 
-type Props = {
-  params: {
-    slug: string
-  }
+interface BlogPostParams {
+  slug: string;
 }
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata({ 
+  params 
+}: { 
+  params: BlogPostParams 
+}): Promise<Metadata> {
   const post = posts[params.slug as keyof typeof posts]
   
   if (!post) {
@@ -72,7 +73,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
-export default async function BlogPost({ params }: Props) {
+export default async function BlogPost({ 
+  params 
+}: { 
+  params: BlogPostParams 
+}) {
   const post = posts[params.slug as keyof typeof posts]
 
   if (!post) {

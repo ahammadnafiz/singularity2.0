@@ -4,7 +4,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: "/Singularity", // Replace with your repository name
+  basePath: "singularity.gituhb.io", // Replace with your repository name
 }
 
 module.exports = nextConfig

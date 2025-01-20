@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation"
 import PostFooter from "@/app/components/PostFooter"
+import { Metadata } from 'next'
 
 const posts = {
   "singularity-how-close": {
@@ -42,7 +43,7 @@ const posts = {
     date: "নভেম্বর ২০, ২০২৩",
     content: `ডিপ লার্নিং কীভাবে আমাদের জীবন বদলে দিচ্ছে...`,
   },
-}
+} as const
 
 // Generate static params for all possible slugs
 export function generateStaticParams() {
@@ -57,7 +58,21 @@ type Props = {
   }
 }
 
-export default function BlogPost({ params }: Props) {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const post = posts[params.slug as keyof typeof posts]
+  
+  if (!post) {
+    return {
+      title: 'Post Not Found',
+    }
+  }
+
+  return {
+    title: post.title,
+  }
+}
+
+export default async function BlogPost({ params }: Props) {
   const post = posts[params.slug as keyof typeof posts]
 
   if (!post) {
@@ -73,4 +88,3 @@ export default function BlogPost({ params }: Props) {
     </article>
   )
 }
-

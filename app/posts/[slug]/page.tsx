@@ -51,7 +51,13 @@ export function generateStaticParams() {
   }))
 }
 
-export default function BlogPost({ params }: { params: { slug: string } }) {
+type Props = {
+  params: {
+    slug: string
+  }
+}
+
+export default function BlogPost({ params }: Props) {
   const post = posts[params.slug as keyof typeof posts]
 
   if (!post) {

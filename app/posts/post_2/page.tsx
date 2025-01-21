@@ -35,7 +35,7 @@ export default function Post1() {
         <p><strong>৩. &ldquo;গেম খেলার AI: পকেমন থেকে পাবজি!&rdquo;</strong></p>
         <ul className="list-disc pl-6">
           <li>
-            <strong>বিগিনার:</strong> OpenAI Gym এ &ldquo;CartPole&rdquo; গেমে AI শেখান—লাঠি балান্স করানো। Q-Learning ইউজ করে, রিওয়ার্ড সিস্টেম বানান। <strong>মন খারাপ:</strong> AI প্রথমে বারবার ফেল করবে, বাসের মতো &ldquo;হোচট খাবে!&rdquo;
+            <strong>বিগিনার:</strong> OpenAI Gym এ &ldquo;CartPole&rdquo; গেমে AI শেখান—লাঠি ব্যালান্স করানো। Q-Learning ইউজ করে, রিওয়ার্ড সিস্টেম বানান। <strong>মন খারাপ:</strong> AI প্রথমে বারবার ফেল করবে, বাসের মতো &ldquo;হোচট খাবে!&rdquo;
           </li>
           <li>
             <strong>এডভান্সড:</strong> &ldquo;GTA 5 এ Self-Driving কার!&rdquo;—Python দিয়ে স্ক্রিপ্ট লিখে গেমের স্ক্রিন ক্যাপচার করুন, AI কে শেখান ট্রাফিক এড়িয়ে ড্রাইভ করতে। <strong>টিপ:</strong> ট্রাফিক জ্যামের ডেটা দিয়ে ট্রেন করলে AI টা এক্সপার্ট হয়ে যাবে!

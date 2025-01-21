@@ -3,7 +3,7 @@ import PostFooter from "@/app/components/PostFooter"
 
 const posts = [
   {
-    date: "ডিসেম্বর ৭, ২০২৩",
+    date: "জানুয়ারি ২০, ২০২৪",
     title: "সিঙ্গুলারিটি: আমরা কতটা কাছে?",
     path: "/posts/post_1",
   },

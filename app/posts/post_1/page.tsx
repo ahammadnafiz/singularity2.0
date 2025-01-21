@@ -4,11 +4,12 @@ export default function Post1() {
   return (
     <article className="prose prose-lg max-w-none">
       <h1 className="text-2xl sm:text-3xl font-bold mb-4">সিঙ্গুলারিটি: আমরা কতটা কাছে?</h1>
-      <div className="text-gray-600 text-sm mb-8">ডিসেম্বর ৭, ২০২৩</div>
+      <div className="text-gray-600 text-sm mb-8">জানুয়ারি ২০, ২০২৪</div>
       <div className="whitespace-pre-wrap text-base leading-relaxed">
         {`টেকনোলজিক্যাল সিঙ্গুলারিটি - সেই মুহূর্ত যখন কৃত্রিম বুদ্ধিমত্তা মানুষের 
+        
         বুদ্ধিমত্তাকে ছাড়িয়ে যাবে। কিন্তু প্রশ্ন হল, আমরা কি সত্যিই সেই মুহূর্তের 
-        কাছাকাছি এসে গেছি?
+        কাছাকাছি এসে গেছি? 
 
         গত কয়েক বছরে জেনারেটিভ এআই এর অভূতপূর্ব উন্নতি দেখে অনেকেই মনে করছেন 
         যে সিঙ্গুলারিটি আমাদের ভাবনার চেয়েও অনেক কাছে। GPT-4, Claude, এবং 

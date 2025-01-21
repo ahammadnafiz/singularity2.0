@@ -2,18 +2,23 @@ import React from 'react';
 
 const goals = [
   {
-    title: "এআই এথিক্স নিয়ে একটি গবেষণা প্রকল্প সম্পন্ন করা",
-    deadline: "জুন ২০২৪",
+    title: "Cousera Deep Learing Course শেষ করা",
+    deadline: "ফেব্রুয়ারি ২০২৫ ",
     status: "চলমান",
   },
   {
-    title: "কৃত্রিম বুদ্ধিমত্তা বিষয়ক একটি বই লেখা",
-    deadline: "ডিসেম্বর ২০২৪", 
+    title: "Neural Networks from Scratch in Python বই পড়া শেষ করা",
+    deadline: "ফেব্রুয়ারি ২০২৫ ",
+    status: "চলমান",
+  },
+  {
+    title: "Fiztorch পাবলিশ করা",
+    deadline: "জুন ২০২৫", 
     status: "পরিকল্পনাধীন",
   },
   {
-    title: "সিঙ্গুলারিটি বিষয়ক একটি আন্তর্জাতিক সম্মেলনে অংশগ্রহণ",
-    deadline: "সেপ্টেম্বর ২০২৪",
+    title: "Research পেপার পাবলিশ করা",
+    deadline: "ডিসেম্বর ২০২৫",
     status: "পরিকল্পনাধীন",
   },
 ];

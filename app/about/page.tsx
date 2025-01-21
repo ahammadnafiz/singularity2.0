@@ -7,7 +7,7 @@ export default function About() {
         <h2 className="text-xl sm:text-2xl font-bold font-jetbrains-mono">About</h2>
         <div className="space-y-4 text-base">
           <p>
-            আমি একজন গবেষক এবং প্রযুক্তি বিশেষজ্ঞ। Singularity 2.0 ব্লগে আমি কৃত্রিম বুদ্ধিমত্তা, সিঙ্গুলারিটি, এবং প্রযুক্তির ভবিষ্যৎ
+            আমি আহাম্মদ নাফিজ। Singularity 2.0 ব্লগে আমি পাইথন, মেশিন লার্নিং, এআই
             নিয়ে লিখি।
           </p>
           <p>

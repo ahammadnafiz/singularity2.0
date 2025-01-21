@@ -3,24 +3,9 @@ import PostFooter from "@/app/components/PostFooter"
 
 const posts = [
   {
-    date: "জানুয়ারি ২০, ২০২৪",
+    date: "জানুয়ারি ২০, ২০২৫",
     title: "সিঙ্গুলারিটি: আমরা কতটা কাছে?",
     path: "/posts/post_1",
-  },
-  {
-    date: "ডিসেম্বর ১, ২০২৩",
-    title: "জেনারেটিভ এআই এর যুগে প্রোগ্রামিং",
-    path: "/posts/post_2",
-  },
-  {
-    date: "নভেম্বর ২৯, ২০২৩",
-    title: "কৃত্রিম বুদ্ধিমত্তার নৈতিকতা",
-    path: "/posts/post_3",
-  },
-  {
-    date: "নভেম্বর ২০, ২০২৩",
-    title: "ডিপ লার্নিং: একটি নতুন দৃষ্টিভঙ্গি",
-    path: "/posts/post_4",
   },
 ]
 

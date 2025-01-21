@@ -2,19 +2,9 @@ import PostFooter from "@/app/components/PostFooter"
 
 const books = [
   {
-    title: "Life 3.0: Being Human in the Age of Artificial Intelligence",
-    author: "Max Tegmark",
-    status: "পড়া শেষ",
-  },
-  {
-    title: "The Singularity Is Near",
-    author: "Ray Kurzweil",
+    title: "Neural Networks from Scratch in Python",
+    author: "Harrison Kinsley & Daniel Kukieła",
     status: "পড়ছি",
-  },
-  {
-    title: "Superintelligence: Paths, Dangers, Strategies",
-    author: "Nick Bostrom",
-    status: "পড়ার পরিকল্পনা আছে",
   },
 ]
 

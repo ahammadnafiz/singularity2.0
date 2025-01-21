@@ -1,4 +1,4 @@
-import PostFooter from "@/app/components/PostFooter"
+import React from 'react';
 
 const goals = [
   {
@@ -8,7 +8,7 @@ const goals = [
   },
   {
     title: "কৃত্রিম বুদ্ধিমত্তা বিষয়ক একটি বই লেখা",
-    deadline: "ডিসেম্বর ২০২৪",
+    deadline: "ডিসেম্বর ২০২৪", 
     status: "পরিকল্পনাধীন",
   },
   {
@@ -16,23 +16,25 @@ const goals = [
     deadline: "সেপ্টেম্বর ২০২৪",
     status: "পরিকল্পনাধীন",
   },
-]
+];
 
 export default function Goals() {
   return (
-    <div>
+    <div className="max-w-3xl mx-auto py-8">
+      <h1 className="text-3xl font-bold mb-8 text-center">২০২৫ সালের লক্ষ্যসমূহ</h1>
       <div className="space-y-6">
         <h2 className="text-xl sm:text-2xl font-bold font-jetbrains-mono">Goals</h2>
         {goals.map((goal, index) => (
-          <div key={index} className={`pb-4 ${index !== goals.length - 1 ? "border-b border-gray-200" : ""}`}>
+          <div 
+            key={index} 
+            className={`pb-4 ${index !== goals.length - 1 ? "border-b border-gray-200" : ""}`}
+          >
             <h3 className="text-base font-medium">{goal.title}</h3>
             <p className="text-sm">সময়সীমা: {goal.deadline}</p>
             <p className="text-sm mt-2">স্ট্যাটাস: {goal.status}</p>
           </div>
         ))}
       </div>
-      <PostFooter />
     </div>
-  )
+  );
 }
-

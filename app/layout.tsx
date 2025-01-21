@@ -20,11 +20,11 @@ export const metadata = {
 }
 
 const navItems = [
-  { href: "/", label: "হোম" },
-  { href: "/thoughts", label: "চিন্তাভাবনা" },
-  { href: "/reading-list", label: "পাঠ্য তালিকা" },
-  { href: "/goals", label: "লক্ষ্য" },
-  { href: "/about", label: "পরিচিতি" },
+  { href: "/", label: "Home" },
+  { href: "/thoughts", label: "Thoughts" },
+  { href: "/reading-list", label: "Reading List" },
+  { href: "/goals", label: "Goals" },
+  { href: "/about", label: "About" },
 ]
 
 export default function RootLayout({

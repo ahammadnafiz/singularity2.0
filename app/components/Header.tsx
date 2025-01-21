@@ -1,12 +1,12 @@
 import Link from "next/link"
 
 const navItems = [
-  { href: "/", label: "হোম" },
-  { href: "/blog", label: "ব্লগ" },
-  { href: "/thoughts", label: "চিন্তাভাবনা" },
-  { href: "/reading-list", label: "পাঠ্য তালিকা" },
-  { href: "/goals", label: "লক্ষ্য" },
-  { href: "/predictions", label: "ভবিষ্যদ্বাণী" },
+  { href: "/", label: "Home" },
+  { href: "/blog", label: "Blog" },
+  { href: "/thoughts", label: "Thoughts" },
+  { href: "/reading-list", label: "Reading List" },
+  { href: "/goals", label: "Goals" },
+  { href: "/predictions", label: "Predictions" },
 ]
 
 export default function Header() {

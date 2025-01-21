@@ -4,8 +4,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: "/singularity2.0.github.io",
+  basePath: "/singularity2.0",
 }
 
 module.exports = nextConfig
-

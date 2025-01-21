@@ -2,11 +2,19 @@ import Link from "next/link"
 import PostFooter from "@/app/components/PostFooter"
 
 const posts = [
+  
+  
+  {
+    date: "জানুয়ারি ২১, ২০২৫",
+    title: "৫টা প্রোজেক্টে মেশিন লার্নিং: সরল স্টাইলে টেক-টক!",
+    path: "/posts/post_2",
+  },
   {
     date: "জানুয়ারি ২০, ২০২৫",
     title: "সিঙ্গুলারিটি: আমরা কতটা কাছে?",
     path: "/posts/post_1",
   },
+  
 ]
 
 export default function Home() {

@@ -9,7 +9,7 @@ export default function PostFooter() {
           <Github size={24} />
           <span className="sr-only">GitHub</span>
         </Link>
-        <Link href="https://www.linkedin.com/in/ahammad-nafiz/" className="text-gray-600 hover:text-gray-900">
+        <Link href="https://linkedin.com/in/ahammad-nafiz" className="text-gray-600 hover:text-gray-900">
           <Linkedin size={24} />
           <span className="sr-only">LinkedIn</span>
         </Link>
@@ -17,3 +17,4 @@ export default function PostFooter() {
     </footer>
   )
 }
+

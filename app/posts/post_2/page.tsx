@@ -1,6 +1,6 @@
 import PostFooter from "@/app/components/PostFooter";
 
-export default function Post1() {
+export default function Post2() {
   return (
     <article className="prose prose-lg max-w-none">
       <h1 className="text-2xl sm:text-3xl font-bold mb-4">৫টা প্রোজেক্টে মেশিন লার্নিং: সরল স্টাইলে টেক-টক!;</h1>

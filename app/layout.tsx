@@ -1,5 +1,6 @@
 import "./globals.css"
 import { Noto_Serif_Bengali, JetBrains_Mono } from "next/font/google"
+import { withBasePath } from "@/lib/basePath"
 
 const notoSerifBengali = Noto_Serif_Bengali({
   weight: ["400", "700"],
@@ -42,14 +43,14 @@ export default function RootLayout({
         <div className="max-w-2xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
           <header className="mb-12">
             <h1 className="text-2xl sm:text-3xl font-bold mb-4 font-jetbrains-mono">
-              <a href="/">Singularity 2.0</a>
+              <a href={withBasePath("/")}>Singularity 2.0</a>
             </h1>
             <div className="h-px bg-gray-200 mb-6"></div>
             <nav>
               <ul className="flex flex-wrap gap-4 sm:gap-6 text-base">
                 {navItems.map((item) => (
                   <li key={item.href}>
-                    <a href={item.href} className="text-blue-600 hover:underline">
+                    <a href={withBasePath(item.href)} className="text-blue-600 hover:underline">
                       {item.label}
                     </a>
                   </li>

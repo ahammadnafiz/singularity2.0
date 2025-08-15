@@ -25,7 +25,7 @@ const posts = [
 ]
 
 // Cache buster - update this timestamp when you make changes
-const lastUpdated = "2025-08-15T16:45:00Z"
+const lastUpdated = "2025-08-15T17:15:00Z"
 
 export default function Home() {
   return (

@@ -33,6 +33,11 @@ export default function RootLayout({
 }) {
   return (
     <html suppressHydrationWarning={true} lang="bn">
+      <head>
+        <meta httpEquiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta httpEquiv="Pragma" content="no-cache" />
+        <meta httpEquiv="Expires" content="0" />
+      </head>
       <body suppressHydrationWarning={true} className={`${notoSerifBengali.variable} ${jetbrainsMono.variable} font-noto-serif-bengali`}>
         <div className="max-w-2xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
           <header className="mb-12">

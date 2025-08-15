@@ -4,8 +4,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: "/singularity2.0",
-  assetPrefix: "/singularity2.0",
+  basePath: process.env.NODE_ENV === 'production' ? "/singularity2.0" : "",
+  assetPrefix: process.env.NODE_ENV === 'production' ? "/singularity2.0" : "",
+  trailingSlash: false,
 }
 
 module.exports = nextConfig

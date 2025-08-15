@@ -8,29 +8,29 @@ export default function Post4() {
       <div className="whitespace-pre-wrap text-base leading-relaxed">
         <h2 className="text-xl font-bold mt-6 mb-4">আজ আমি একটা পেপার পড়তে গেলাম...</h2>
         <p>
-          আজকে সকালে উঠেই মন বলল, চল আজ সিরিয়াস হয়ে একটা research paper পড়ি। Machine Learning নিয়ে পড়াশোনা করছি, তাই ভাবলাম latest paper গুলো পড়ে নিই। Google Scholar খুলে "Deep Learning" লিখে search দিলাম। প্রথমেই একটা ২০ পাতার paper পেলাম - "Attention Is All You Need"।
+          আজকে সকালে উঠেই মন বলল, চল আজ সিরিয়াস হয়ে একটা research paper পড়ি। Machine Learning নিয়ে পড়াশোনা করছি, তাই ভাবলাম latest paper গুলো পড়ে নিই। Google Scholar খুলে &ldquo;Deep Learning&rdquo; লিখে search দিলাম। প্রথমেই একটা ২০ পাতার paper পেলাম - &ldquo;Attention Is All You Need&rdquo;।
         </p>
         <p>
-          ভাবলাম, "আরে এইটা তো famous paper! চল এইটাই পড়ি।" PDF download করে খুললাম। কিন্তু যা হলো...
+          ভাবলাম, &ldquo;আরে এইটা তো famous paper! চল এইটাই পড়ি।&rdquo; PDF download করে খুললাম। কিন্তু যা হলো...
         </p>
 
         <h2 className="text-xl font-bold mt-8 mb-4">প্রথম ধাক্কা: Abstract দেখেই মাথা ঘুরে গেল</h2>
         <p>
-          "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder..."
+          &ldquo;The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder...&rdquo;
         </p>
         <p>
-          এই লাইনটাই পড়ে মাথায় হাতুড়ি মারার মতো লাগল। "Sequence transduction" কী জিনিস? "Encoder-decoder" architecture ই বা কী? 
+          এই লাইনটাই পড়ে মাথায় হাতুড়ি মারার মতো লাগল। &ldquo;Sequence transduction&rdquo; কী জিনিس? &ldquo;Encoder-decoder&rdquo; architecture ই বা কী? 
         </p>
         <p>
           তখন মনে পড়ল, আমার এক সিনিয়র ভাই বলেছিল Reddit এ এই নিয়ে অনেক discussion আছে। তাড়াতাড়ি খুঁজতে গেলাম। প্রথমেই পেলাম r/learnmachinelearning এর এই post: <a href="https://www.reddit.com/r/learnmachinelearning/comments/1bhpmzd/how_do_you_make_a_habit_of_reading_research_papers/kvfcea6/" className="text-blue-600 hover:underline">How do you make a habit of reading research papers?</a>
         </p>
         <p>
-          সেখানে একজন comment করেছে: <em>"Reading good textbooks can save your PhD life."</em> আহা! তাহলে আমি ভুল জায়গা থেকে শুরু করেছি।
+          সেখানে একজন comment করেছে: <em>&ldquo;Reading good textbooks can save your PhD life.&rdquo;</em> আহা! তাহলে আমি ভুল জায়গা থেকে শুরু করেছি।
         </p>
 
         <h2 className="text-xl font-bold mt-8 mb-4">দ্বিতীয় চেষ্টা: Textbook দিয়ে foundation তৈরি</h2>
         <p>
-          পরদিন আবার চেষ্টা করলাম। এবার প্রথমে "Deep Learning" এর একটা textbook chapter পড়লাম। Ian Goodfellow এর বইটা। ঘন্টা দুয়েক পড়ার পর basic concept গুলো clear হলো।
+          পরদিন আবার চেষ্টা করলাম। এবার প্রথমে &ldquo;Deep Learning&rdquo; এর একটা textbook chapter পড়লাম। Ian Goodfellow এর বইটা। ঘন্টা দুয়েক পড়ার পর basic concept গুলো clear হলো।
         </p>
         <p>
           এবার আবার সেই paper এ ফিরে গেলাম। Abstract এ যেই term গুলো বুঝি নি, সেগুলো Google করে অর্থ বের করলাম। অবস্থা একটু ভাল লাগল।
@@ -47,13 +47,13 @@ export default function Post4() {
           Title দেখেই বুঝলাম আমার মতো আরো অনেকেই এই সমস্যায় ভুগছে! 
         </p>
         <p>
-          একটা comment এ পেলাম golden advice: <em>"Don't read linearly. Personally, I'll read abstract and conclusions first, then I'll maybe skim the introduction, glance at figures if present."</em>
+          একটা comment এ পেলাম golden advice: <em>&ldquo;Don&rsquo;t read linearly. Personally, I&rsquo;ll read abstract and conclusions first, then I&rsquo;ll maybe skim the introduction, glance at figures if present.&rdquo;</em>
         </p>
         <p>
           আরেকটা post এ পেলাম: <a href="https://www.reddit.com/r/AskAcademia/comments/1iy7xih/how_do_you_actually_read_research_papers/mes9ufx/" className="text-blue-600 hover:underline">How do you actually read research papers?</a>
         </p>
         <p>
-          সেখানে একজন বলেছে: <em>"Question/Experiment/Results/Conclusion"</em> - এই order এ focus করতে।
+          সেখানে একজন বলেছে: <em>&ldquo;Question/Experiment/Results/Conclusion&rdquo;</em> - এই order এ focus করতে।
         </p>
 
         <h2 className="text-xl font-bold mt-8 mb-4">তৃতীয় চেষ্টা: Non-linear approach</h2>
@@ -95,7 +95,7 @@ export default function Post4() {
           r/PhD এর একটা post এ দেখলাম: <a href="https://www.reddit.com/r/PhD/comments/qoyygf/tips_for_reading_papers_faster/hjqi02y/" className="text-blue-600 hover:underline">Tips for reading papers faster</a>
         </p>
         <p>
-          সেখানে কেউ comment করেছিল: <em>"I recommend taking notes as well."</em>
+          সেখানে কেউ comment করেছিল: <em>&ldquo;I recommend taking notes as well.&rdquo;</em>
         </p>
         <p>
           তখন ভাবলাম, হ্যাঁ রে! আমি তো কোনো notes নিচ্ছি না। পরের paper থেকে একটা notebook নিয়ে বসলাম। Three column এ ভাগ করলাম:
@@ -114,13 +114,13 @@ export default function Post4() {
           একদিন r/learnmachinelearning এ একটা comment দেখলাম যেটা আমার জীবন বদলে দিল: <a href="https://www.reddit.com/r/learnmachinelearning/comments/1bhpmzd/how_do_you_make_a_habit_of_reading_research_papers/kvfa0c3/" className="text-blue-600 hover:underline">এই link এ</a>
         </p>
         <p>
-          সেখানে একজন বলেছিল: <em>"I created a tool originally for my own research and have published it on https://aetherbrain.ai/ to help me speed up the process by summarizing the high-level ideas and intuitively explaining the jargon and key ideas to me."</em>
+          সেখানে একজন বলেছিল: <em>&ldquo;I created a tool originally for my own research and have published it on https://aetherbrain.ai/ to help me speed up the process by summarizing the high-level ideas and intuitively explaining the jargon and key ideas to me.&rdquo;</em>
         </p>
         <p>
           এই AetherBrain.ai টা try করে দেখলাম। সত্যিই helpful! Complex paper এর summary পেয়ে যাচ্ছি minutes এ।
         </p>
         <p>
-          তারপর ChatGPT ও ব্যবহার করতে শুরু করলাম। Paper এর abstract copy করে paste করতাম, বলতাম "Explain this in simple terms"। অনেক সময় complex mathematical notation গুলো explain করিয়ে নিতাম।
+          তারপর ChatGPT ও ব্যবহার করতে শুরু করলাম। Paper এর abstract copy করে paste করতাম, বলতাম &ldquo;Explain this in simple terms&rdquo;। অনেক সময় complex mathematical notation গুলো explain করিয়ে নিতাম।
         </p>
 
         <h2 className="text-xl font-bold mt-8 mb-4">Group Study এর শক্তি</h2>
@@ -128,13 +128,13 @@ export default function Post4() {
           r/AskAcademia তে আরেকটা post পড়লাম: <a href="https://www.reddit.com/r/AskAcademia/comments/1igflq8/how_to_get_better_at_reading_research_papers/maoe2vz/" className="text-blue-600 hover:underline">How to get better at reading research papers?</a>
         </p>
         <p>
-          সেখানে journal club এর কথা বলা ছিল। ভাবলাম এটা একটা দারুণ idea! যদিও এখনো আমার কোনো group নেই, তবে ভবিষ্যতে বন্ধুদের সাথে একটা "Paper Reading Club" বানানোর plan আছে। বিভাগের কয়েকজনের সাথে কথা বলে দেখব, interested কেউ আছে কিনা।
+          সেখানে journal club এর কথা বলা ছিল। ভাবলাম এটা একটা দারুণ idea! যদিও এখনো আমার কোনো group নেই, তবে ভবিষ্যতে বন্ধুদের সাথে একটা &ldquo;Paper Reading Club&rdquo; বানানোর plan আছে। বিভাগের কয়েকজনের সাথে কথা বলে দেখব, interested কেউ আছে কিনা।
         </p>
         <p>
           প্রতি সপ্তাহে একটা paper নিয়ে আলোচনা করার idea টা বেশ exciting। প্রত্যেকে আলাদা আলাদা section নিয়ে present করতে পারে। 
         </p>
         <p>
-          এক comment এ পড়েছিলাম: <em>"A good journal club is all about learning to interpret and think critically about what you read."</em> - এটা সত্যিই effective ছিল!
+          এক comment এ পড়েছিলাম: <em>&ldquo;A good journal club is all about learning to interpret and think critically about what you read.&rdquo;</em> - এটা সত্যিই effective ছিল!
         </p>
 
         <h2 className="text-xl font-bold mt-8 mb-4">Technical Terms এর সাথে লড়াই</h2>
@@ -142,7 +142,7 @@ export default function Post4() {
           r/math এর আরেকটা comment মনে আছে: <a href="https://www.reddit.com/r/math/comments/17p40rz/how_to_read_a_research_paper_efficiently/k840z3n/" className="text-blue-600 hover:underline">এখানে</a> দেখেছিলাম।
         </p>
         <p>
-          সেখানে বলা ছিল: <em>"You have to learn the words to understand."</em>
+          সেখানে বলা ছিল: <em>&ldquo;You have to learn the words to understand.&rdquo;</em>
         </p>
         <p>
           তখন একটা strategy নিলাম। একটা notebook এ সব unknown terms note করতাম। তারপর:
@@ -161,7 +161,7 @@ export default function Post4() {
           r/PhD এর একটা post এ পড়েছিলাম: <a href="https://www.reddit.com/r/PhD/comments/1d71k6p/efficient_way_to_read_a_scientific_paper/l6wsy0z/" className="text-blue-600 hover:underline">Efficient way to read a scientific paper</a>
         </p>
         <p>
-          সেখানে বলা ছিল: <em>"Go through the figures and tables with minimal reading of the main body text."</em>
+          সেখানে বলা ছিল: <em>&ldquo;Go through the figures and tables with minimal reading of the main body text.&rdquo;</em>
         </p>
         <p>
           এটা খুবই কার্যকর! আমি এখন paper open করার পর প্রথমেই সব figures scroll করি। অনেক সময় figures দেখেই বুঝে যাই paper টা কী নিয়ে।
@@ -348,7 +348,7 @@ export default function Post4() {
 
         <h2 className="text-xl font-bold mt-8 mb-4">Practice Makes Perfect</h2>
         <p>
-          একটা comment এ পড়েছিলাম: <em>"You get better at reading papers by reading papers."</em> - এটা ১০০% সত্য!
+          একটা comment এ পড়েছিলাম: <em>&ldquo;You get better at reading papers by reading papers.&rdquo;</em> - এটা ১০০% সত্য!
         </p>
         <p>
           প্রথম paper পড়তে ৪ ঘন্টা লেগেছিল। এখন ১ ঘন্টায় effectively পড়ে ফেলতে পারি। আর quick scan তো ১৫ মিনিটেই!

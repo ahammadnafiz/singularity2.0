@@ -469,7 +469,7 @@ export default function Post4() {
 
         <h2 className="text-xl font-bold mt-8 mb-4">Final Reflection: আমার Journey</h2>
         <p>
-          আজ মনে পড়ছে সেই প্রথম দিনের কথা যখন "Attention Is All You Need" paper দেখে হতাশ হয়ে গিয়েছিলাম। আর আজ সেই same paper আমার favorite paper গুলোর একটা!
+          আজ মনে পড়ছে সেই প্রথম দিনের কথা যখন &ldquo;Attention Is All You Need&rdquo; paper দেখে হতাশ হয়ে গিয়েছিলাম। আর আজ সেই same paper আমার favorite paper গুলোর একটা!
         </p>
         <p>
           <strong>Key Lessons:</strong>
@@ -482,7 +482,7 @@ export default function Post4() {
           <li><strong>Tools</strong>: Modern AI tools কে embrace করো, resist করো না</li>
         </ol>
         <p>
-          <strong>What's Next:</strong>
+          <strong>What&rsquo;s Next:</strong>
         </p>
         <p>
           এখন planning করছি নিজেই একটা paper লেখার। সব এই Reddit posts আর community গুলো থেকে যা শিখেছি, সেটা দিয়ে contribute করতে চাই field এ।
@@ -496,7 +496,7 @@ export default function Post4() {
           Reddit এর এই সব posts গুলো দেখলেই বুঝবে পৃথিবীর হাজারো মানুষ same problem face করেছে। কিন্তু সবাই overcome করেছে। তোমরাও পারবে!
         </p>
         <p>
-          <strong>Remember:</strong> <em>"You get better at reading papers by reading papers."</em>
+          <strong>Remember:</strong> <em>&ldquo;You get better at reading papers by reading papers.&rdquo;</em>
         </p>
 
         <hr className="my-8" />
@@ -520,7 +520,7 @@ export default function Post4() {
           <li><a href="https://www.reddit.com/r/AskAcademia/comments/70hmkx/any_advice_on_how_to_read_an_academic_paper/dn37i4j/" className="text-blue-600 hover:underline">r/AskAcademia - Any advice on how to read an academic paper</a></li>
           <li><a href="https://www.reddit.com/r/PhD/comments/qoyygf/tips_for_reading_papers_faster/hjqhq6r/" className="text-blue-600 hover:underline">r/PhD - Tips for reading papers faster (second reference)</a></li>
           <li><a href="https://www.reddit.com/r/math/comments/17p40rz/how_to_read_a_research_paper_efficiently/k83xycc/" className="text-blue-600 hover:underline">r/math - How to read research papers efficiently (third reference)</a></li>
-          <li><a href="https://www.reddit.com/r/AskAcademia/comments/1mkt6sg/how_do_you_critically_readreview_someone_elses/n7l7phu/" className="text-blue-600 hover:underline">r/AskAcademia - How do you critically read/review someone else's work</a></li>
+          <li><a href="https://www.reddit.com/r/AskAcademia/comments/1mkt6sg/how_do_you_critically_readreview_someone_elses/n7l7phu/" className="text-blue-600 hover:underline">r/AskAcademia - How do you critically read/review someone else&rsquo;s work</a></li>
           <li><a href="https://www.reddit.com/r/AskAcademia/comments/70hmkx/any_advice_on_how_to_read_an_academic_paper/dn395tn/" className="text-blue-600 hover:underline">r/AskAcademia - Any advice on how to read an academic paper (second reference)</a></li>
           <li><a href="https://www.reddit.com/r/AskAcademia/comments/1igflq8/how_to_get_better_at_reading_research_papers/maoe2vz/" className="text-blue-600 hover:underline">r/AskAcademia - How to get better at reading research papers (final reference)</a></li>
         </ol>

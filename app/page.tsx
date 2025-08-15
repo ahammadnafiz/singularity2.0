@@ -1,4 +1,3 @@
-import Link from "next/link"
 import PostFooter from "@/app/components/PostFooter"
 
 const posts = [
@@ -26,7 +25,7 @@ const posts = [
 ]
 
 // Cache buster - update this timestamp when you make changes
-const lastUpdated = "2025-08-15T16:30:00Z"
+const lastUpdated = "2025-08-15T16:45:00Z"
 
 export default function Home() {
   return (
@@ -36,9 +35,9 @@ export default function Home() {
         {posts.map((post) => (
           <div key={post.path} className="group">
             <div className="text-gray-600 text-sm mb-1">{post.date}</div>
-            <Link href={post.path} className="text-blue-600 hover:underline text-base font-medium">
+            <a href={post.path} className="text-blue-600 hover:underline text-base font-medium">
               {post.title}
-            </Link>
+            </a>
           </div>
         ))}
       </div>

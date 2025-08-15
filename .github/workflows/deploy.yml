@@ -33,10 +33,10 @@ jobs:
           ls -la out || echo "out directory does not exist"
           echo "Current directory structure:"
           find . -type d -maxdepth 2
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v1
         with:
-          path: ./out
+          path: out
 
   deploy:
     environment:

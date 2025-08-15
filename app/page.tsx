@@ -2,7 +2,11 @@ import Link from "next/link"
 import PostFooter from "@/app/components/PostFooter"
 
 const posts = [
-  
+  {
+    date: "আগস্ট ১৫, ২০২৫",
+    title: "আমার গবেষণাপত্র পড়ার যাত্রা: ব্যর্থতা থেকে সাফল্যের গল্প",
+    path: "/posts/post_4",
+  },
   {
     date: "এপ্রিল ২৩, ২০২৫",
     title: "বাইনারি বিশ্বে যাত্রা: লজিস্টিক রিগ্রেশনের গভীরে",

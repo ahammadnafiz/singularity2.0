@@ -2,8 +2,13 @@ import PostFooter from "@/app/components/PostFooter"
 
 const books = [
   {
-    title: "Neural Networks from Scratch in Python",
-    author: "Harrison Kinsley & Daniel Kukieła",
+    title: "Dive into Deep Learning (D2L)",
+    author: "Aston Zhang, Zachary C. Lipton, Mu Li, and Alexander J. Smola",
+    status: "পড়ছি",
+  },
+  {
+    title: "Build a Large Language Model from Scratch",
+    author: "Sebastian Raschka",
     status: "পড়ছি",
   },
 ]

@@ -2,19 +2,14 @@ import React from 'react';
 
 const goals = [
   {
-    title: "Cousera Deep Learing Course শেষ করা",
-    deadline: "ফেব্রুয়ারি ২০২৫ ",
+    title: "LLM এর Internal Workings সম্পূর্ণ বুঝা",
+    deadline: "অক্টোবর ২০২৫",
     status: "চলমান",
   },
   {
-    title: "Neural Networks from Scratch in Python বই পড়া শেষ করা",
-    deadline: "ফেব্রুয়ারি ২০২৫ ",
+    title: "Dive into Deep Learning (D2L) বই শেষ করা",
+    deadline: "ডিসেম্বর ২০২৫",
     status: "চলমান",
-  },
-  {
-    title: "Fiztorch পাবলিশ করা",
-    deadline: "জুন ২০২৫", 
-    status: "পরিকল্পনাধীন",
   },
   {
     title: "Research পেপার পাবলিশ করা",

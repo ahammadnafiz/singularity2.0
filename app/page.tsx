@@ -25,6 +25,9 @@ const posts = [
   
 ]
 
+// Cache buster - update this timestamp when you make changes
+const lastUpdated = "2025-08-15T16:30:00Z"
+
 export default function Home() {
   return (
     <div>
@@ -40,6 +43,8 @@ export default function Home() {
         ))}
       </div>
       <PostFooter />
+      {/* Hidden cache buster */}
+      <div style={{display: 'none'}} data-updated={lastUpdated}></div>
     </div>
   )
 }

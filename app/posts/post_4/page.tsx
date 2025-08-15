@@ -235,14 +235,14 @@ export default function Post4() {
           সেখানে online courses এর কথা বলা ছিল। আমিও কয়েকটা course নিলাম:
         </p>
         <ul className="list-disc pl-6">
-          <li>Coursera তে "How to Read Scientific Papers"</li>
-          <li>edX এ "Critical Thinking in Academic Research"</li>
+          <li>Coursera তে &ldquo;How to Read Scientific Papers&rdquo;</li>
+          <li>edX এ &ldquo;Critical Thinking in Academic Research&rdquo;</li>
           <li>Khan Academy তে related math topics</li>
         </ul>
 
         <h2 className="text-xl font-bold mt-8 mb-4">Critical Reading Skills Development</h2>
         <p>
-          r/AskAcademia এর এই post টা critical reading শেখাল: <a href="https://www.reddit.com/r/AskAcademia/comments/1mkt6sg/how_do_you_critically_readreview_someone_elses/n7l7phu/" className="text-blue-600 hover:underline">How to critically read/review someone else's</a>
+          r/AskAcademia এর এই post টা critical reading শেখাল: <a href="https://www.reddit.com/r/AskAcademia/comments/1mkt6sg/how_do_you_critically_readreview_someone_elses/n7l7phu/" className="text-blue-600 hover:underline">How to critically read/review someone else&rsquo;s</a>
         </p>
         <p>
           শিখলাম এই questions গুলো করতে:
@@ -448,7 +448,7 @@ export default function Post4() {
           <li><strong>Foundation First</strong>: Textbook পড়ে basics clear করো</li>
           <li><strong>Review Papers</strong>: Field এর overview এর জন্য perfect</li>
           <li><strong>Short Papers</strong>: 4-6 page papers দিয়ে শুরু করো</li>
-          <li><strong>Don't Give Up</strong>: প্রথম কয়েকটা paper কঠিন লাগবে, এটা normal</li>
+          <li><strong>Don&rsquo;t Give Up</strong>: প্রথম কয়েকটা paper কঠিন লাগবে, এটা normal</li>
         </ol>
 
         <h3 className="text-lg font-bold mt-6 mb-3">For Intermediate Readers:</h3>
